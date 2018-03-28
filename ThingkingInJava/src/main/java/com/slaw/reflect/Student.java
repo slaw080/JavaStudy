@@ -39,6 +39,11 @@ public class Student {
         System.out.println("私有的构造方法   年龄：" + age);
     }
 
+    // 成员方法
+    public void show() {
+        System.out.println("is show()");
+    }
+
     public String getName() {
         return name;
     }
